@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>echo.js - issue#102 test</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 2em;
+    }
+  </style>
+</head>
+<body>
+  <h1>Issue#102 test</h1>
+
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p><iframe width="560" height="315" data-echo="https://www.youtube.com/embed/OGk76gcfGKk" frameborder="0" allowfullscreen></iframe></p>
+  <p><iframe width="420" height="315" data-echo="https://www.youtube.com/embed/DOHGTJoh498" frameborder="0" allowfullscreen></iframe></p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p>Content...</p>
+  <p><img data-echo="./images/test1.jpg" width="600" height="400"></p>
+  <p><img data-echo="./images/test2.jpg" width="600" height="400"></p>
+  <p><img data-echo="./images/test3.jpg" width="600" height="400"></p>
+  <p><img data-echo="./images/test4.jpg" width="600" height="400"></p>
+
+  <script src="./dist/echo.min.js"></script>
+  <script>
+    echo.init({
+      selector: "img[data-echo], iframe[data-echo], [data-echo-background]"
+    });
+  </script>
+</body>
+</html>
